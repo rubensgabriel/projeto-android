@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('truetype');
+}
+    :root{
+        --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+        --fonte-destaque: 'Barlow Condensed','cursive';
+        --fonte-android: 'Android', 'cursive'
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    body{
+        background-color: #84E1AD;
+    }
+    header{
+        background-image: linear-gradient(to top, #134128, #2db168);
+        color: white;
+        padding: 10px 5px 0px 4px;
+        margin: auto;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.342);
+    }
+    header > p{
+        max-width: 370px;
+        height: 50px;
+        margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        font-family: var(--fonte-destaque);
+        font-weight: 400;
+        padding: 10px 5px 10px 10px;
+        font-size: 1.1em;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.418);
+    }
+    header > h1{
+        text-align: center;
+        font-family: var(--fonte-destaque);
+        font-weight: 500;
+        font-size: 2.9em;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.342);
+    }
+    #menu > a{
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(179, 221, 196);
+        margin: auto;
+        padding: 10px;
+        font-family: var(--fonte-padrao);
+        line-height: 2.1em;
+    }
+    #menu > a:hover{
+        background-color: #a4dabb;
+        color: #0f2b1ca2;
+        border-radius: 4px;
+        padding: 9px;
+        transition-duration: 0.4s;
+    }
+    main{
+        background-color: white;
+        min-width: 280px;
+        max-width: 800px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 20px;
+        font-family: var(--fonte-padrao);
+        text-align: justify;
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    }
+    main > h2{
+        font-family: var(--fonte-android);
+        color: #2F6B4B;
+        font-size: 1.7em;
+        text-align: left;
+    }
+    main p{
+        text-indent: 30px;
+        margin: 15px 0px;
+        line-height: 2em;
+    }
+    main a{
+        text-decoration: none;
+        font-weight: bold;
+        color: #1b462d;
+        background-color: #4cc27f;
+        padding: 3px;
+        content: '\1F517';
+    }
+    main a:hover{
+        text-decoration: underline;
+        color: #296b44;;
+    }
+    main a::after{
+        content: '\1F517'
+    }
+    main strong{
+        color: #1f7442;
+    }
+    section > h3{
+        font-family: var(--fonte-android);
+        color: #2F6B4B;
+        background-image: linear-gradient(to right, #84E1AD, transparent);
+        font-size: 1.4em;
+        padding: 0px 5px;
+        text-align: left;
+    }
+    .video{
+        background-color: #1A5C38;
+        text-align: center;
+        padding: 20px;
+        margin: 0px -20px 30px -20px;
+        position: relative;
+        padding-bottom: 56.8%;
+    }
+    .video > iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+    #curiosidades{
+        background-color: #C5EBD6;
+        border-radius: 10px;
+        box-shadow: 7px 6px 5px rgba(0, 0, 0, 0.185);
+        padding: 15px;
+    }
+    #curiosidades > h4{
+        color: white;
+        font-size: 1.2em;
+        background-color: #2FA866;
+        padding: 10px;
+        margin: -15px -15px 0px -15px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    #curiosidades > ul{
+        columns: 2;
+        list-style-position: inside;
+    }
+    footer{
+        background-color: #185133;
+        color: white;
+        font-family: var(--fonte-padrao);
+        margin: 0px;
+        text-align: center;
+        padding: 5px;
+        font-size: 0.8em;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    } 
+    img{
+        width: 100%;
+        display: block;
+    }
+    #pequena{
+        max-width: 350px;
+        display: block;
+        margin: auto;
+    }
