@@ -1,4 +1,7 @@
 # Projeto: Site Android
+
+![preview](./imagens/preview.png)
+
 ## Descrição do Projeto
 <p> Projeto Android criado no capitulo 17 do Curso de HTML e CSS do Curso em Vídeo. </p>
 
